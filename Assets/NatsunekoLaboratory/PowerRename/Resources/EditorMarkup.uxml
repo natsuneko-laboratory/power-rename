@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xmlns:editor="UnityEditor.UIElements"
+  xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement class="min-h-full h-full">
+    <engine:VisualElement class="mt-2 mx-2">
+      <engine:VisualElement class="mb-2">
+        <engine:TextElement text="Power Rename" class="text-2xl" />
+        <engine:TextElement text="Rename GameObjects by select conventions in Hierarchy" class="" />
+      </engine:VisualElement>
+      <engine:VisualElement class="my-2">
+        <engine:TextElement text="Naming Conventions" class="text-xl mb-2" />
+        <engine:VisualElement name="conventions-container" class="mt-2" />
+      </engine:VisualElement>
+      <engine:VisualElement class="my-2">
+        <engine:TextElement text="Options" class="text-xl mb-2" />
+        <engine:VisualElement name="options-container" class="mt-2" />
+      </engine:VisualElement>
+      <engine:VisualElement class="my-2">
+        <engine:TextElement text="Previews" class="text-xl mb-2" />
+        <engine:VisualElement class="flex flex-row mt-2">
+          <engine:VisualElement class="w-1_2 no-shrink h-full">
+            <engine:TextElement text="Before GameObjects" />
+            <engine:VisualElement name="left-container" class="mt-2" />
+          </engine:VisualElement>
+          <engine:VisualElement class="w-1_2 no-shrink">
+            <engine:TextElement text="After GameObjects" />
+            <engine:VisualElement name="right-container" class="mt-2" />
+          </engine:VisualElement>
+        </engine:VisualElement>
+      </engine:VisualElement>
+      <engine:Button text="Apply Changes" name="apply-changes" class="mt-2" />
+    </engine:VisualElement>
+  </engine:VisualElement>
+</engine:UXML>
