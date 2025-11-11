@@ -27,7 +27,7 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
   build-unitypackage:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     needs: [vars]
     steps:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
@@ -49,7 +49,7 @@ jobs:
           name: UnityPackages
 
   build-vpmpackage:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     needs: [vars]
     steps:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
