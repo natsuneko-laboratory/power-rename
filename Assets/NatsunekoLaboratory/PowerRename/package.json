@@ -1,6 +1,6 @@
 {
   "name": "cat.natsuneko.power-rename",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Power Rename",
   "description": "PowerRename for Unity is Unity editor extension for renaming GameObjects in hierarchy.",
   "unity": "2019.4",
